@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Kim Kazandı</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Kim Kazandı?</string>
+    <string name="nav_header_subtitle">Turkcell Gençlere Yatırım Geleceğe Yazılım</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+    <string name="cekilis">Çekiliş</string>
+    <string name="takip_ettiklerim">Takip Ettiklerim</string>
+    <string name="yeni_baslayanlar">Yeni Başlayanlar</string>
+    <string name="tatil_kazan">Tatil Kazan</string>
+    <string name="araba_kazan">Araba Kazan</string>
+    <string name="telefon_tablet_kazan">Telefon Tablet Kazan</string>
+    <string name="bedava_katilim">Bedava Katılım</string>
+    <string name="onemli_bilgiler">Önemli Bilgiler</string>
+    <string name="baslangic_tarihi">Başlangıç Tarihi</string>
+    <string name="son_katilim_tarihi">Son Katılım Tarihi</string>
+    <string name="cekilis_tarihi">Çekiliş Tarihi</string>
+    <string name="ilan_tarihi">İlan Tarihi</string>
+    <string name="min_harcama_tutari">Min. Harcama Tutarı</string>
+    <string name="toplam_hediye_degeri">Toplam Hediye Değeri</string>
+    <string name="toplam_hediye_sayisi">Toplam Hediye Sayısı</string>
+    <string name="takip_et">Takip Et</string>
+    <string name="takibi_birak">Takibi Bırak</string>
+</resources>

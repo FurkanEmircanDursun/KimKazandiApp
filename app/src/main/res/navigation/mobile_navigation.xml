@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_general">
+
+    <fragment
+        android:id="@+id/nav_general"
+        android:name="com.example.kimkazandi.ui.generalDraw.GeneralDrawFragment"
+        android:label="@string/cekilis"
+        tools:layout="@layout/fragment_general_draw" >
+        <action
+            android:id="@+id/action_nav_general_to_detailFragment"
+            app:destination="@id/detailFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_myFollow"
+        android:name="com.example.kimkazandi.ui.myFollow.MyFollowFragment"
+        android:label="@string/takip_ettiklerim"
+        tools:layout="@layout/fragment_my_follow" >
+        <action
+            android:id="@+id/action_nav_myFollow_to_detailFragment"
+            app:destination="@id/detailFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_begins"
+        android:name="com.example.kimkazandi.ui.beginDraw.BeginsFragment"
+        android:label="@string/yeni_baslayanlar"
+        tools:layout="@layout/fragment_begins" >
+        <action
+            android:id="@+id/action_nav_begins_to_detailFragment"
+            app:destination="@id/detailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_car"
+        android:name="com.example.kimkazandi.ui.carDraw.CarDrawFragment"
+        android:label="@string/araba_kazan"
+        tools:layout="@layout/fragment_car_draw" >
+        <action
+            android:id="@+id/action_nav_car_to_detailFragment"
+            app:destination="@id/detailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_free"
+        android:name="com.example.kimkazandi.ui.freeDraw.FreeDrawFragment"
+        android:label="@string/bedava_katilim"
+        tools:layout="@layout/fragment_free_draw" >
+        <action
+            android:id="@+id/action_nav_free_to_detailFragment"
+            app:destination="@id/detailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_vacation"
+        android:name="com.example.kimkazandi.ui.vacationDraw.VacationDrawFragment"
+        android:label="@string/tatil_kazan"
+        tools:layout="@layout/fragment_vacation_draw" >
+        <action
+            android:id="@+id/action_nav_vacation_to_detailFragment"
+            app:destination="@id/detailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_phoneAndTablet"
+        android:name="com.example.kimkazandi.ui.phoneAndTabletDraw.PhoneAndTabletFragment"
+        android:label="@string/telefon_tablet_kazan"
+        tools:layout="@layout/fragment_phone_and_tablet" >
+        <action
+            android:id="@+id/action_nav_phoneAndTablet_to_detailFragment"
+            app:destination="@id/detailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/detailFragment"
+        android:name="com.example.kimkazandi.detail.DetailFragment"
+        android:label="Detail"
+        tools:layout="@layout/fragment_detail">
+        <argument
+            android:name="data"
+            app:argType="com.example.kimkazandi.model.Draw" />
+    </fragment>
+</navigation>

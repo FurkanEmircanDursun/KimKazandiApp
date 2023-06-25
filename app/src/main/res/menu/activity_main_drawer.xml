@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_general"
+            android:icon="@drawable/baseline_home_24"
+            android:title="@string/cekilis" />
+
+        <item
+            android:id="@+id/nav_begins"
+            android:icon="@drawable/baseline_fiber_new_24"
+            android:title="@string/yeni_baslayanlar" />
+        <item
+            android:id="@+id/nav_vacation"
+            android:icon="@drawable/baseline_beach_access_24"
+            android:title="@string/tatil_kazan" />
+        <item
+            android:id="@+id/nav_car"
+            android:icon="@drawable/baseline_directions_car_24"
+            android:title="@string/araba_kazan" />
+        <item
+            android:id="@+id/nav_phoneAndTablet"
+            android:icon="@drawable/baseline_phone_android_24"
+            android:title="@string/telefon_tablet_kazan" />
+        <item
+            android:id="@+id/nav_free"
+            android:icon="@drawable/baseline_money_off_24"
+            android:title="@string/bedava_katilim" />
+        <item
+            android:id="@+id/nav_myFollow"
+            android:icon="@drawable/baseline_favorite_24"
+            android:title="@string/takip_ettiklerim" />
+    </group>
+</menu>
